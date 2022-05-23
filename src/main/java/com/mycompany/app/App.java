@@ -7,6 +7,10 @@ package com.mycompany.app;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello Joe");
+        System.out.println("Hello Remote World!");
+        System.out.println(2 + joy(3)); 
+    }
+    public static int joy(int e) {
+        return e + 10;
     }
 }
